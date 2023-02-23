@@ -123,6 +123,7 @@ var igual = function(){
         }
         limpa()
         visor.innerHTML = result.toFixed(2)
+        console.log('ponto')
 }
 
 
