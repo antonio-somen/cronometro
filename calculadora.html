@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="calculadora.css"/>
+    <script src="https://kit.fontawesome.com/bd8c592bbb.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="conteiner">
+        <p>Calculadora</p>
+        <div id="calculdora">
+            <table>
+                <tr>
+                    <td colspan="4" id="visor"></td>
+                </tr>
+                <tr>
+                    <td onclick="um()">1</td>
+                    <td onclick="dois()">2</td>
+                    <td onclick="tres()">3</td>
+                    <td onclick="somar()">+</td>
+                </tr>
+                <tr>
+                    <td onclick="cinco()">5</td>
+                    <td onclick="seis()">6</td>
+                    <td onclick="sete()">7</td>
+                    <td onclick="subtrair()">-</td>
+                </tr>
+                <tr>
+                    <td onclick="oito()">8</td>
+                    <td onclick="nove()">9</td>
+                    <td onclick="zero()">0</td>
+                    <td onclick="multiplicar()">*</td>
+                </tr>
+                <tr>
+                    
+                    <td onclick="igual()">=</td>
+                    <td onclick="ponto()">.</td>
+                    <td onclick="limpa()">C</td>
+                    <td onclick="dividir()">\</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="script-calc.js"></script>
+</html>
